@@ -1,11 +1,20 @@
-(function executeRule(current, previous /*null when async*/) {
+(function executeRule(current, previous) {
 
-    // Example: prevent closing a task without work notes filled in
-    if (current.state == 4 /* Closed */ && current.work_notes.nil()) {
-        current.setAbortAction(true);
-        gs.addErrorMessage('Work notes must be filled in before closing a task.');
+    var completion = parseInt(current.project_completion, 10);
+
+    if (isNaN(completion))
+        completion = 0;
+
+    if (completion == 0) {
+        current.status = "Planning";
+    }
+    else if (completion < 100) {
+        current.status = "In Progress";
+    }
+    else {
+        current.status = "Completed";
     }
 
-    // Additional PM-specific validations can be added here.
+    current.update();
 
 })(current, previous);
