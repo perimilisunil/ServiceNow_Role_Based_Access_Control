@@ -1,7 +1,7 @@
-# Business Rule: Project Manager Restrictions
+# Business Rule: Project Update Status
 
-- **When:** Before Update
+- **When:** After Update
 - **Table:** Project Task
-- **Purpose:** Enforces additional PM-specific checks, for example ensuring required fields are set before a task is closed, or logging an audit trail.
+- **Purpose:** Enforces additional PM-specific checks, for example ensuring how much percentage of work is  completed by the team members .
 
-This rule acts as a placeholder for any PM-specific governance logic the team wants to add over time.
+This rule acts as a placeholder for PM to know how much of work is completed.
