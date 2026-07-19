@@ -1,4 +1,4 @@
-# Business Rule: Project Update Status
+# Business Rule: Update Project Status
 
 - **When:** After Update
 - **Table:** Project Task
