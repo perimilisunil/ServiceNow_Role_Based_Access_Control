@@ -11,5 +11,7 @@
 | **Planned End Date** | Write | Read only |
 | **Work notes** | Write | Write |
 | **Assigned to** | Write | Read only |
+| **Manger Remarks** | Write | Read only |
+| **Estimated Hours** | Write | Read only |
 
 ¹ Team Member only on tasks assigned to them, and even then some fields are locked.
