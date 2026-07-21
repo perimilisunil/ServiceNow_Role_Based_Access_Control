@@ -328,10 +328,21 @@ This project demonstrates a comprehensive RBAC implementation on ServiceNow, cov
 
 <p><i>Repository structure above provides all code and documentation files. Each folder contains a README and/or Markdown file explaining its components. Use this as a template to import into your GitHub for a complete project showcase.</i></p>
 
+## Contributing
+
+Contributions are welcome! Please follow these guidelines:
+
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
+
+
 ## 📥 Contact & Support
 
 ### Project Maintainer
-**Sunil Kumar**  
+**Perimili Sunil Kumar**  
 🔗 [GitHub](https://github.com/perimilisunil)  
 🔗 [LinkedIn](https://www.linkedin.com/in/perimili-sunil-kumar-bb22b3300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
 📧 [perimilisunil@gmail.com](mailto:perimilisunil@gmail.com)
