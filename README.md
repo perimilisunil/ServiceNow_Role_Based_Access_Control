@@ -293,8 +293,6 @@ Each rule fires on `update` of a task record. The **README** in each rule folder
 - **Trigger:** Business Rule or Flow triggers on insert/update of task with assignment.  
 - **Template:** Stored in *notifications/Task_Assigned.md*. The email includes project name, task description, assigned by, etc.
 
-```
-
 ### Flow Designer
 
 A simple Flow handles task assignment notifications and status changes:
@@ -321,9 +319,6 @@ All customizations are packaged in the *ProjectCollabMgmt Update Set*. To deploy
 
 *(See update_set/Update_Set.md for full deployment instructions.)*
 
-### Screenshots
-
-*(Placeholder: add screenshots of UI – e.g., form layout, flow diagram, role assignments.)*
 
 ### Conclusion
 
@@ -332,3 +327,11 @@ This project demonstrates a comprehensive RBAC implementation on ServiceNow, cov
 ---
 
 <p><i>Repository structure above provides all code and documentation files. Each folder contains a README and/or Markdown file explaining its components. Use this as a template to import into your GitHub for a complete project showcase.</i></p>
+
+## 📥 Contact & Support
+
+### Project Maintainer
+**Sunil Kumar**  
+🔗 [GitHub](https://github.com/perimilisunil)  
+🔗 [LinkedIn](https://www.linkedin.com/in/perimili-sunil-kumar-bb22b3300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
+📧 [perimilisunil@gmail.com](mailto:perimilisunil@gmail.com)
